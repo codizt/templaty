@@ -1,6 +1,6 @@
 {
   "name": "templaty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create, save and reuse the present directory as template for quicker workflows in the future!",
   "main": "index.js",
   "repository": "https://github.com/codizt/templaty",
