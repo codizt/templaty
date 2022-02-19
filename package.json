@@ -1,6 +1,6 @@
 {
   "name": "templaty",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Create, Save and use custom templates with ease!",
   "main": "bin/index.js",
   "repository": "https://github.com/codizt/templaty.git",
