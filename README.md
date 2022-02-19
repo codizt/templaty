@@ -18,6 +18,7 @@ sudo templaty
 It needs sudo permission to access the node modules folder.
 
 ## Screenshots
+![Screenshot from 2022-02-19 12-30-38](https://user-images.githubusercontent.com/84092517/154790641-a160dbb4-1730-4528-a3ba-a4d27c1d7cc1.png)
 
 
 
