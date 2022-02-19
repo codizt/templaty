@@ -6,7 +6,7 @@ function removeItem(array, item) {
 }
 
 const view = () => {
-  let out = execSync( 'cd /usr/lib/node_modules/templaty/templates/ && ls', { encoding: 'utf8' } ).toString().split( "\n" );
+  let out = execSync( 'mkdir -p /usr/lib/node_modules/templaty/templates/ &&cd /usr/lib/node_modules/templaty/templates/ && ls', { encoding: 'utf8' } ).toString().split( "\n" );
   out.forEach( ( item ) => { item.trim(); } );
   out = removeItem( out, "" );
   for ( let i = 0; i < out.length; i++ ) { 

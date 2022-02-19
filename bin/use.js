@@ -9,7 +9,7 @@ function removeItem(array, item) {
 const use = () => {
   console.log( chalk.red( "Warning: Existing files in this directory will be overwritten!\n" ) );
   let name = readlineSync.question( chalk.cyan( "Enter the name of the template: " ) );
-  let list = execSync( 'cd /usr/lib/node_modules/templaty/templates/ && ls', { encoding: 'utf8' } ).toString().split( "\n" );
+  let list = execSync( 'mkdir -p /usr/lib/node_modules/templaty/templates/ && cd /usr/lib/node_modules/templaty/templates/ && ls', { encoding: 'utf8' } ).toString().split( "\n" );
   list.forEach( ( item ) => { item.trim(); } );
   list = removeItem( out, "" );
   if ( list.includes( name ) ) { 
